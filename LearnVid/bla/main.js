@@ -4,7 +4,7 @@ function run(arr1)
   if(arr1.length > 0)
   {
 		var str = arr1.pop();
-    arr2.push(str.find(function(item){item ==str}))
+    arr2.push(arr1.find(function(item){item ==str}))
     arr1.pop();
     return run(arr1);
   }
