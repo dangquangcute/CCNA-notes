@@ -4,7 +4,8 @@ function run(arr1)
   if(arr1.length > 0)
   {
 		var str = arr1.pop();
-    arr2.push(arr1.find(function(item){item ==str}))
+    arr2.push(arr1.find(function(item){item !=str}))
+    console.log("huhu : " + arr1.find(function(item){item !=str}))
     delete arr1[length-1];
     console.log("arr1 : "+ arr1);
     console.log("arr2 : " + arr2);
