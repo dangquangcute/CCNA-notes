@@ -5,10 +5,12 @@ function run(arr1,arr2)
 		var str = arr1.shift();
     if(arr2.length>0)
     {
-        arr2.push(arr2.forEach(item => {
-            console.log('item : ' + item);
-            console.log('str : ' + str);
-            }))
+        arr2.array.forEach(element => {
+            if(element != str)
+            {
+                arr2.push(str)
+            }
+        });
     }
     else{
         arr2.push(str)
