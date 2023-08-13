@@ -9,11 +9,12 @@ function run(arr1,arr2)
             console.log('item : ' + item);
             console.log('str : ' + str);
             if(!(str == item)) {
-            return str
+            console.log(str);
+                return str
+            
             } }))
     }
     else{
-        console.log(5);
         arr2.push(str)
     }
     console.log("arr1 : "+ arr1);
