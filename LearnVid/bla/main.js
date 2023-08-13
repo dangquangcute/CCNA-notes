@@ -14,5 +14,5 @@ function run(arr1,arr2)
 }
 var arrkk = [];
 run(['a','b','c','a','b'],arrkk);
-console.log(arr2)
+console.log(arrkk)
 
