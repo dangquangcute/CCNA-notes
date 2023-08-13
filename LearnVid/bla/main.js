@@ -5,12 +5,8 @@ function run(arr1,arr2)
 		var str = arr1.shift();
     if(arr2.length>0)
     {
-        arr2.forEach(element => {
-            if(element != str)
-            {
-                arr2.push(str)
-                break;
-            }
+        arr2.every(element => {
+            return element != str ? arr2.push(str) :null;
         });
     }
     else{
