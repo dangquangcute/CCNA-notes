@@ -6,6 +6,7 @@ function run(arr1,arr2)
     if(arr2.length>0)
     {
         arr2.every(element => {
+            console.log('kkk');
             return element != str ? arr2.push(str) :null;
         });
     }
