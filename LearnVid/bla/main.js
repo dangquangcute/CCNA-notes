@@ -12,7 +12,7 @@ function run(arr1,arr2)
                 isSuccess = true;
             }
         });
-        if(isSuccess)arr2.push(str)
+        if(!isSuccess)arr2.push(str)
     }
     else{
         arr2.push(str)
