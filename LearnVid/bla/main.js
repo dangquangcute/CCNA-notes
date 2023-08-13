@@ -5,10 +5,14 @@ function run(arr1,arr2)
 		var str = arr1.shift();
     if(arr2.length>0)
     {
-        arr2.find(element => {
-            
-            return element != str ? arr2.push(str) :null;
+        var isSuccess = false;
+        arr2.forEach(element => {
+            if(element == str)
+            {
+                isSuccess = true;
+            }
         });
+        if(isSuccess)arr2.push(str)
     }
     else{
         arr2.push(str)
