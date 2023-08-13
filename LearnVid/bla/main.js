@@ -8,10 +8,7 @@ function run(arr1,arr2)
         arr2.push(arr2.forEach(item => {
             console.log('item : ' + item);
             console.log('str : ' + str);
-            if(!(str == item)) {
-                return str
-            
-            } }))
+            }))
     }
     else{
         arr2.push(str)
