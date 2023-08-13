@@ -1,0 +1,35 @@
+1. Các TP chính 
+    - Speed.
+    - Cost.
+    - Security.
+    - Availability.(độ sãn sàng)
+    - Scalability.(độ mở rộng)
+    - Reliability.(độ tin cậy)
+    - Topology
+2. Khảo sát
+    - Speed bao gồm : Tốc độ bên trong và bên ngoài
+    
+    + Các yếu tố ảnh hưởng đến tốc độ bên trong : (pic2)
+    
+     * Chuẩn cáp. 
+    
+     * Tốc độ truy cập mạng của thiết bị đầu cuối. 
+    
+     * Nâng cấp switch và router để đồng bộ. 
+    
+     * Lựa chọn chuẩn k dây phù hợp (Lưu ý : chuẩn không dây phải đồng bộ giữa thiết bị đầu cuối và accessPoint). 
+     !* Hệ thống mạng không dây luôn có speed không = mạng có dây do luôn phải chia sẻ băng thông.
+      Hai máy tính nếu truyền dữ liệu trùng thời điểm thì sẽ xảy ra hiện tượng đụng độ (2 máy tình gửi ra sóng truyền dẫn gặp nhau và giao thoa gây ra nhiễu).
+      Vd : Trong cùng 1 thời điểm khi sd chuẩn 150mb cho 10 máy thì mỗi máy chỉ có tốc độ là 15mb (chưa tính yếu tố khác : nhiễu , khoảng cách)
+    
+     * Giới hạn tài nguyên phần cứng : tốc độ đọc dữ liệu từ ổ cứng ra (20 ~ 30mb tùy vào loại dữ liệu lấy ra)
+     !* Khắc phục : trên server sẽ sd 1 kĩ thuật là RAID . Giúp cho server có thể đọc dữ liệu đồng thời trên 4 ổ cứng (20mb => 80mb) cải thiện khá đáng kể 
+     *-> Phục vụ được nhiều ng dùng hơn thì người ta sẽ đặt nhiều RAM (đọc từ ngoài có thể > 1git) .
+     Các bước : đọc dữ liệu từ ổ cứng ra RAM của Server . Từ RAM đẩy ra thiết bị đầu cuối, 
+    
+     * 1 Problem là khi thuê 1 đường FTTH (cáp quang với tốc độ 30mb) từ internet vào router nhưng tốc đọ tải dữ liệu về chỉ khoảng 2-3mb/connection
+     !* Nguyễn nhân : server ở internet giới hạn băng thông / 1 phiên connect
+     *-> Chúng ta sẽ lách luật = cách sd 1 chu trình tải là IDM (pic4).
+      Chu trình này sẽ mở đồng thời 3-4 session tới server ở ngoài internet.
+      Sau khi tải thành công IDM sẽ ghép từng file lại thành 1 file hoàn chỉnh 
+

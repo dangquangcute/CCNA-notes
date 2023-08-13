@@ -1,0 +1,19 @@
+1. Điểm nhận biết có phải 1 hệ thống mạng
+    - Được kêt nối với nhau.
+    - Có thể truyền thông với nhau .
+
+    Vd : 
+    $ 2 thiết bị mắc trực tiếp với nhau
+    $  2 smartphone kết nối bluetooth và truyền file 
+    -> Tình huống này vẫn được xem là 1 hệ thống mạng : do được kế nối vói nhau (thông qua wireless) và có kn truyền dữ liệu cho nhau.
+    * Mô hình thường thấy (pic1). 
+    * Mô hình cơ bản mạng doanh nghiệp (pic2).
+2. Chức năng và ứng dụng switch
+    - Chúng ta hoàn toàn có thể kết nối trực tiếp khi yêu cầu chỉ với 2 hoặc 3 máy tính (với 3 máy thì yêu câu mỗi máy có 2 card mạng)
+    Nhưng khi từ 3 trở lên thì việc connect trực tiếp không khả thi nữa. Lúc này ta có thể sử dụng switch để connect.
+    - Trên thị trường hiện hiện nay có các dòng sw 16 , 24, 48 port (pic3) . Nhưng khi 1 mạng có nhiều hơn 48 port thì có thể kn 2 sw lại  (pic4)
+    * Nhưng khi gom qua nhiều máy tính gom chung vào 1 vùng mạng thì rất dễ gây ra các vấn đề bảo mật 
+    -> 1 máy tính A bất kì (Pic 5) sử dụng trình tấn công Netcut sẽ làm cho toàn bộ máy trong cùng vùng mạng sẽ bị disconnect. Vậy nên ta sẽ chia vùng mạng lớn thành nhiều vùng mạng nhỏ(pic 5)
+3. Chức năng và ứng dụng của router
+    -  Chia vùng mạng lớn thành nhiều vùng mạng nhỏ . Thông qua router thì mạng Lan có thể đi ra ngoài internet
+    * Ứng dụng (pic5).
