@@ -5,8 +5,8 @@ function run(arr1,arr2)
 		var str = arr1.shift();
     if(arr2.length>0)
     {
-        arr2.every(element => {
-            console.log('kkk');
+        arr2.find(element => {
+            
             return element != str ? arr2.push(str) :null;
         });
     }
