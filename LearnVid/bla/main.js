@@ -3,10 +3,10 @@ function run(arr1,arr2)
   if(arr1.length > 0)
   {
 		var str = arr1.shift();
-    arr2.push(arr2.find(function(item){
+    arr2.push(arr2.find(item => {
         console.log('item : ' + item);
         console.log('str : ' + str);
-        if(str != item) {
+        if(!(str == item)) {
         return str
     } }))
     console.log("arr1 : "+ arr1);
