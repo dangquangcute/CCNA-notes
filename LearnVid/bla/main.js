@@ -13,6 +13,7 @@ function run(arr1,arr2)
             } }))
     }
     else{
+        console.log(5);
         arr2.push(str)
     }
     console.log("arr1 : "+ arr1);
