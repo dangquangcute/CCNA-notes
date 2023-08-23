@@ -1,4 +1,4 @@
-#   Giới thiệu tổng quan về mô hình OSI
+# Phần 1  Giới thiệu tổng quan về mô hình OSI
 
 ## Open Systems Interconnection
 
