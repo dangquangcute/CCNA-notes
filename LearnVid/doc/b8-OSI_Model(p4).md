@@ -1,0 +1,6 @@
+# Phần 3 : Giới thiệu tổng quan về mô hình TCP/IP   
+-   Bên cạnh mô hình chuẩn hóa OSI, chúng ta còn 1 mô hình chuẩn hóa khác đó là mô hình TCP/IP. Nếu mô hình OSI có 7 phân lớp thì mô hình TCP/IP chỉ có 4 phân lớp thôi. Gồm : Application, Transport, Internet, Netword Access.
+-   Giữa 2 mô hình thì mô hình TCP/IP được các nhà sản xuất thiết bị mạng dựa vào mô hình này để sản xuất. Còn trong quá trình học thuật, khi phân tích sự cố hệ thống mạng thì chúng ta vẫn dựa vào mô hình OSI
+
+![Alt text](<../picture/Screenshot 2023-08-27 at 20.27.38.png>)
+-    Người ta gom 3 lớp Application, Presentation, Session thành 1 phần lớp là Application. Lý do khi mà khi một công ty lập trình ra 1 phần mềm hoặc một hệ điều hành họ sẽ phải thực hiện chức năng của ba phân lớp này, vậy nên họ gom hết thành 1 phân lớp Application. Tương tự như phần lớp Application, khi nhà cung cấp đề cập đến Network Access là ám chỉ đến 1 phần lớp trong TCP/IP ,..Còn khi mà chúng ta đọc tài liệu học thuật liên quan đến sự cố hệ thống mạng, chúng ta có thể hình dung người ta đang ám chỉ tới phân lớp của mô hình OSI
