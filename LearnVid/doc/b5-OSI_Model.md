@@ -6,33 +6,33 @@
 ### 1.  Đặc trưng
 - Kết nối giao tiếp giữa các máy tính khác nhau , các loại swith được kết nối vào router. Mô hình OSI có thể bỏ qua các rào cản bên trên, giúp móc nối tới các máy tính lấy file ,...
 - Cho nên quá trình nâng cấp bố sung thiết bị sau này trên hệ thống mạng không phức tạp lắm, chúng ta chỉ cần nắm rõ mô hình OSI này thì có thể vận hành được rất nhiều sản phẩm của các hãng khác nhau.
-![Alt text](<../Screenshot 2023-08-10 at 05.16.02.png>)
+![Alt text](<../picture/Screenshot 2023-08-10 at 05.16.02.png>)
 -  Mô hình OSI gồm 7 phần lớp : 
 
 
-    ![Alt text](<../Screenshot 2023-08-10 at 08.26.13.png>)
+    ![Alt text](<../picture/Screenshot 2023-08-10 at 08.26.13.png>)
 
 
 Problem : 2 máy tính đang sử dụng 2 loại ngôn ngữ mạng (ipv4 và ipv6). Chắc chắn là 2 Pc không thể móc nối đến nhau để giao tiếp và truyền dữ liệu.
-![Alt text](<../Screenshot 2023-08-10 at 08.22.37.png>)
+![Alt text](<../picture/Screenshot 2023-08-10 at 08.22.37.png>)
 
 => Điều kiện cần để giao tiếp : Chúng phải nói chuyện cùng ngôn ngữ, cùng 1 chồng giao thức   
 Vd : Pc B vừa giao tiếp được ipv4 và ipv6
-![ ](<../Screenshot 2023-08-10 at 08.29.19.png>)
+![ ](<../picture/Screenshot 2023-08-10 at 08.29.19.png>)
 
 
 
 -   Hiện nay chồng giao thức mà các thiết bị trên toàn Internet được sử dụng giao tiếp với nhau được gọi là chồng giao thức TCP/IP. Được gọi là chồng giao thức bởi nó được kết hợp từ nhiều giao thức khác nhau : 
-![Alt text](<../Screenshot 2023-08-10 at 08.34.14.png>)
+![Alt text](<../picture/Screenshot 2023-08-10 at 08.34.14.png>)
 -  Giao thức là bộ quy tắc chuẩn chung mà các thiết bị mạng cần phải tuân theo thì mới có thể giao tiếp được với nhau.  
-Chẳng hạn như lớp Transport bên dưới : ![Alt text](<../Screenshot 2023-08-10 at 08.39.18.png>)
+Chẳng hạn như lớp Transport bên dưới : ![Alt text](<../picture/Screenshot 2023-08-10 at 08.39.18.png>)
 Phải tuân theo 1 tiêu chuẩn là TCP thì mới giao tiếp được với nhau.
 ###  2.  Quy tắc và ứng dụng.
    -   Chúng ta cần nắm rõ vì sao mô hình OSI được phần thành 7 lớp công việc
-   -   Một máy tính chúng ta khi muốn truyền dữ liệu đến một thiết bị đầu cuối khác thì cần giải quyết rất nhiều công việc. Một cơ quan không thể giải quýet hết lượng lớn công việc, nên người ta đã chia thành các phần lớp. Nghĩa là các công việc có tính chất chung người ta sẽ gom lại thành một phân lơp như vậy tạo thành 7 phân lớp của mô hình OSI ![Alt text](<../Screenshot 2023-08-10 at 08.49.04.png>)
+   -   Một máy tính chúng ta khi muốn truyền dữ liệu đến một thiết bị đầu cuối khác thì cần giải quyết rất nhiều công việc. Một cơ quan không thể giải quýet hết lượng lớn công việc, nên người ta đã chia thành các phần lớp. Nghĩa là các công việc có tính chất chung người ta sẽ gom lại thành một phân lơp như vậy tạo thành 7 phân lớp của mô hình OSI ![Alt text](<../picture/Screenshot 2023-08-10 at 08.49.04.png>)
 #### Mô hình OSI mang lại những lợi ích gì ?
 -   Giảm thiểu độ phức tạp trong quá trình vận hành hệ thống mạng.
-![Alt text](<../Screenshot 2023-08-10 at 09.02.54.png>)
+![Alt text](<../picture/Screenshot 2023-08-10 at 09.02.54.png>)
 1.  Những đội chuyên về thi công hạ tầng mạng cab thì sẽ nghiên cứu sâu về lớp physical
 2. Cấu hình hạ tầng switch thì nghiên cứu kĩ về lớp Data Link
 3.  Nghiên cứu công nghệ liên quan đến định tuyến (vd : ta thi công 2 đường ra internet thì ta sẽ nghiên cứu để chia tải ra 2 đường này) Chúng ta có thể nghiên cứu các công nghệ liên quan đến lớp network, những giao thức định tuyến động chúng ta sẽ nghiên cứu sau.
@@ -53,7 +53,7 @@ layer high như ethernet hay pppoe(công nghệ quay số hay dùng ở modem). 
 
 - Các chủ đề mà chúng ta sẽ tìm hiều tại các phân lớp tron mô hình OSI :   
 
-![Alt text](<../Screenshot 2023-08-10 at 09.20.16.png>)
+![Alt text](<../picture/Screenshot 2023-08-10 at 09.20.16.png>)
 
 
 

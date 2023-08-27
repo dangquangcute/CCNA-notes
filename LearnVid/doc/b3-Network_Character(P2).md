@@ -27,4 +27,4 @@ Problem: Tổ chức dịch vụ ban đầu chỉ có khoảng 100 người sử
 
 
 #   Ảnh minh họa hoàn chỉnh
-![Full options picture](<../Screenshot 2023-08-07 at 10.09.21.png>)
+![Full options picture](<../picture/Screenshot 2023-08-07 at 10.09.21.png>)
