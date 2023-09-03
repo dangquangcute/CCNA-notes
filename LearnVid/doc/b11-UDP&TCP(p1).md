@@ -1,6 +1,5 @@
-# Phần 1 kích thước tối đa của ột phân mảnh segment
+# Phần 1 kích thước tối đa của một phân mảnh segment (MTU)
 
-## h
 
 -   Chức năng chính của lớp transport chủ yếu là đảm bảo quá trình truyền thông từ đầu cuối đến thiết bị đầu cuối. Máy tính chúng ta sẽ móc nối đến web server và tải dữ liệu về, toàn bộ giao diện web sẽ được phân mảnh thành nhiều segment. 
 ![Alt text](<Screenshot 2023-09-03 at 18.14.46.png>)
