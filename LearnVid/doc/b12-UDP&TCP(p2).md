@@ -20,4 +20,4 @@
 Kể từ khi gửi 1 gói tin đi mà không nhận đuọc hồi đáp ACK thì nó sẽ chủ động gửi tiếp tục gói tin đó cho dến khi nhận được. Bằng cơ chế này thì tất cả segment từ máy gửi se được gửi an toàn đến máy nhận.
 - Đối với UDP thì nó sẽ không trải qua quá trình bắt tay 3 bước. Nó sẽ tiến hành phân mành dữ liệu có kích thước tối đa là 1480byte rồi sau đó lần lượt gửi các segment 1 cách ồ ạt ![Alt text](<Screenshot 2023-09-03 at 19.15.02.png>)
 Do không đánh số thứ tự cho các segment này mà nó không có khả năng phục hồi dữ liệu đã mất. Thông thường UDP không hoạt động độc lập mà nó sẽ thực hiện phối hợp TCP ![Alt text](<Screenshot 2023-09-03 at 19.16.21.png>) 
-### -   Flow control (điều khiển luồng, điều tiếp luồng)
+### -   Flow control (điều khiển luồng, điều tiếp luồng) (Phần sau)
