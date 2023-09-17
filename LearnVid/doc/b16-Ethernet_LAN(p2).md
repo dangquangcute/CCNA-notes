@@ -1,0 +1,3 @@
+# Xác định địa chỉ MAC của máy tính sử dụng hệ điều hành Window
+-   Một trong những cách trực quan nhất để xác định địa chỉ MAC trực quan nhất là thông qua giao diện Network connection. Để thao tác mở nhanh thì sử dụng tổ hợp : window + R -> ncpa.cpl, ở đây nó sẽ liệt kê các card mạng của máy.  Sau đó chọn status -> detail card mạng muốn xem, lúc này ta xác định địa chỉ MAC chính là Physical Address trên màn hình ![Alt text](<Screenshot 2023-09-17 at 07.01.12.png>)
+-   Cách thứ 2 là : window + R -> Cmd. Sau đó nhập câu lệnh ipconfig để xem .![Alt text](<Screenshot 2023-09-17 at 07.02.22.png>)
