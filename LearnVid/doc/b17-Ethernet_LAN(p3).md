@@ -1,0 +1,5 @@
+# Phần 3: Phân tích quá trình trao đổi dữ liệu giữa các thiết bị trên hệ thống mạng LAN
+
+-   Các máy tính trên mạng LAN khi muốn trao đổi dữ liệu thì trước hết chúng cần được định danh bằng địa chỉ MAC và địa chỉ IP ![Alt text](<Screenshot 2023-09-17 at 07.26.29.png>)
+-   Nhưng khi gói tin 1 pc gửi đến 1 pc khác thông qua switch thì switch chỉ xử lí được thông tin layer 2 Header,nên nó sẽ phải gắn thêm địa chỉ MAC vào ![Alt text](<Screenshot 2023-09-17 at 07.28.35.png>)Sau khi pc gắn thêm thông tin địa chỉ MAC vào gói tin thì lúc này toàn bộ chúng được gọi là 1 frame. PC1 gửi cấu trúc frame này tới switch và switch sẽ dựa vào địa chỉ MAC đích để gửi chính xác đến PC2. 
+-   Khi nhận được gói tin thì đầu tiên PC2 sẽ tiến hành đọc vào thông tin địa chỉ MAC đích và kiểm tra xem là đây có phải là địa chỉ MAC của nó hay không. Nếu phải thì PC mới xử lí tiếp layer 3 Header bằng cách đọc tiếp vào địa chỉ IP đích nếu khớp với IP của chinh nó thì lúc này nó sẽ soạn ra bản tin hồi đáp và gửi về cho PC1
